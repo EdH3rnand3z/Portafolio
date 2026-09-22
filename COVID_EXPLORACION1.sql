@@ -148,7 +148,7 @@ INSERT INTO Porcentaje_poblacion_vacunada
   WHERE dea.continent IS not NULL;
 SELECT *, (VACUNACION_ACUMULADA/population)*100 AS Porcentaje_Vacunacion_Acumulada FROM Porcentaje_poblacion_vacunada ;
 
---CREAR VITA PARA ALMACENAR DATOS PARA VISUALIZACIONES
+--CREAR VISTA PARA ALMACENAR DATOS PARA VISUALIZACIONES
 DROP VIEW IF EXISTS `Covid19.TotalMuertes`;
 CREATE VIEW `Covid19.TotalMuertes` AS
 SELECT 
