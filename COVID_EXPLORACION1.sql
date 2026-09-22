@@ -1,3 +1,4 @@
+/*Analisis del impacto en los primeros años por el virus COVID-19*/
 --1: REVISION GENERAL
 SELECT location, date, total_cases, new_cases, total_deaths FROM `Covid19.COVID_DEATH`
 ORDER BY 1,2
